@@ -1,6 +1,6 @@
 {
   "name": "firetower-scores",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The Web Component for Firetower to display Google Lighthouse scores",
   "main": "src/index.js",
   "homepage": "https://firetower.netlify.app",
