@@ -1,0 +1,41 @@
+{
+  "name": "firetower-scores",
+  "version": "0.1.0",
+  "description": "The Web Component for Firetower to display Google Lighthouse scores",
+  "main": "src/index.js",
+  "homepage": "https://firetower.netlify.app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradleyburgess/firetower-scores.git"
+  },
+  "scripts": {
+    "build": "run-s clean rollup strip",
+    "clean": "rimraf dist/",
+    "lint": "eslint src/",
+    "rollup": "rollup --config",
+    "strip": "node ./scripts/strip.js"
+  },
+  "keywords": [
+    "lighthouse",
+    "web component",
+    "custom element",
+    "core web vitals"
+  ],
+  "author": {
+    "name": "Bradley Burgess",
+    "email": "bradleyburgess@gmail.com",
+    "url": "https://github.com/bradleyburgess"
+  },
+  "bugs": {
+    "url": "https://github.com/bradleyburgess/firetower-scores/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.25.0",
+    "fast-glob": "^3.2.12",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.79.1",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}

@@ -1,0 +1,13 @@
+#node_modules/
+#src/
+#scripts/
+#
+#demo/
+#
+#rollup.config.js
+#.eslintrc.json
+#.netlify/
+#netlify.toml
+**/*
+!dist/**/*
+!src/**/*
